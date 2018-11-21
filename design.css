@@ -39,7 +39,7 @@ h1{
     animation: mymove 5s infinite;
 
 }
-/* Safari 4.0 - 8.0 */
+
 @-webkit-keyframes mymove {
   from {left: 0px;}
   to {left: 80px;}
