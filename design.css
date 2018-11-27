@@ -3,7 +3,7 @@
 body {
   background-image: -moz-element();
 
-background: linear-gradient(rgba(158, 153, 153, 0.664),rgba(158, 153, 153, 0.24), rgba(155, 145, 145, 0.705)), url(lulea.jpg); height: 100vw; 
+background: linear-gradient(rgba(158, 153, 153, 0),rgba(158, 153, 153, 0.445),rgba(158, 153, 153, 0.507),rgba(158, 153, 153, 0.582), rgba(155, 145, 145, 0.185)), url(lulea.jpg); height: 100vw; 
 background-attachment: fixed;
 
 background-repeat: no-repeat;
@@ -81,7 +81,7 @@ color: black;
   z-index: 900;
   color: rgb(0, 0, 0);
   text-decoration-color: rgb(226, 3, 33);
-  box-shadow: rgb(255, 255, 255) 0 0 10ch;
+  box-shadow: rgb(255, 255, 255) 0 0 1ch;
   font-size: 5vw;
   text-align: center;
   text-decoration-color: aqua;
