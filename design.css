@@ -121,8 +121,9 @@ right: 0vw;;
 
 p {
   text-align: center;
-  font-size: 20px;
-  margin-top: 0px;
+  font-size: 5vw;
+left: 10vw;
+margin-right:25px; 
   color: white;
 }
 
@@ -223,22 +224,29 @@ background-position: center;
 /* Add an italic font style to all quotes */
 q {font-style: italic;
 
-
+color:black;
+font-size: 6vw;
   position: absolute;
-top:40vw;
+top:35vw;
 left: 0vw;
-right: 0vw;;
+right: 0vw;
   z-index: 900;
+bottom: 5vw;
 }
 
 /* Add a blue color to the author */
-.author {color: rgb(27, 107, 255);
+.author {color: rgb(255, 255, 255);
 
   position: absolute;
 top:80vw;
-left: 0vw;
-right: 0vw;;
+left: 17vw;
+right: 16vw;;
   z-index: 900;
+  font-size: 6vw;
+  font-family: "Lobster", serif;
+  box-shadow: rgb(153, 0, 0) 0 0 10ch;
+border-radius: 50vw;
 
+  font-style: oblique;
 }
 
