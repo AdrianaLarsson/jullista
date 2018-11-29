@@ -110,11 +110,11 @@ top:145vw;
 left: 0vw;
 right: 0vw;;
   z-index: 900;
-  border:  13px solid rgb(202, 0, 0);
-  width: 92vw;
+  
+  width: 100vw;
   height: 19vw;
-  border-radius: 20px;
-  box-shadow: rgb(153, 0, 0) 0 0 10ch;
+
+ 
 
   
 }
