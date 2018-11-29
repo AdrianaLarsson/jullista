@@ -48,12 +48,12 @@ h1{
 }
 
 @-webkit-keyframes mymove {
-  from {left: 0px;}
-  to {left: 80px;}
+  from {left: 15px;}
+  to {left: 85px;}
 }
 
 @keyframes mymove {
-  from {left: 0px;}
+  from {left: 15px;}
   to {left: 80px;}
 }
 
