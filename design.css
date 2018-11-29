@@ -229,10 +229,10 @@ top:35vw;
 left: 0vw;
 right: 3vw;;
   z-index: 900;
-  font-size: 6.6vw;
-  font-family: "Lobster", serif;
+  font-size: 6.4vw;
+  font-style: italic;
   box-shadow: rgb(0, 0, 0) 0 0 10ch;
-border-radius: 3ch; width: 30ch; height: 10ch;
+border-radius: 3ch; width: 32ch; height: 10ch;
 
 }
 
@@ -241,10 +241,10 @@ border-radius: 3ch; width: 30ch; height: 10ch;
   color: rgb(0, 0, 0);
 top:40vw;
 left: 0vw;
-right: 3vw;;
+right: 1vw;;
   z-index: 900;
-  font-size: 6.6vw;
-  font-family: "Lobster", serif;
+  font-size: 6.5vw;
+  font-style: italic;
   box-shadow: rgb(255, 0, 0) 0 0 10ch; bottom: 10ch;
 border-radius: 3ch; width: 30ch; height: 5ch;
 text-shadow: 20ch;
