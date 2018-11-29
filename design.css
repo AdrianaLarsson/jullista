@@ -210,7 +210,7 @@ right: 0vw;
 .author {color: rgb(255, 255, 255);
 
   position: absolute;
-top:80vw;
+top:70vw;
 left: 17vw;
 right: 16vw;;
   z-index: 900;
@@ -222,3 +222,70 @@ border-radius: 50vw;
   font-style: oblique;
 }
 
+.text{
+  position: absolute;
+  color: rgb(255, 255, 255);
+top:35vw;
+left: 0vw;
+right: 3vw;;
+  z-index: 900;
+  font-size: 6.6vw;
+  font-family: "Lobster", serif;
+  box-shadow: rgb(0, 0, 0) 0 0 10ch;
+border-radius: 3ch; width: 30ch; height: 10ch;
+
+}
+
+.text2{
+  position: absolute;
+  color: rgb(0, 0, 0);
+top:40vw;
+left: 0vw;
+right: 3vw;;
+  z-index: 900;
+  font-size: 6.6vw;
+  font-family: "Lobster", serif;
+  box-shadow: rgb(255, 0, 0) 0 0 10ch; bottom: 10ch;
+border-radius: 3ch; width: 30ch; height: 5ch;
+text-shadow: 20ch;
+}
+
+.text3{
+  position: absolute;
+  color: rgb(255, 255, 255);
+top:40vw;
+left: 0vw;
+right: 3vw;;
+  z-index: 900;
+  font-size: 6vw;
+  font-style: italic;
+  
+}
+
+.text4{
+  position: absolute;
+  color: rgb(0, 0, 0);
+top:40vw;
+left: 0vw;
+right: 1vw;;
+  z-index: 900;
+  font-size: 7vw;
+  font-family: "Lobster", serif, cursive;
+  font-style: italic;
+border-radius: 3ch; width: 30ch; height: 5ch;
+
+}
+.author3 {color: rgb(0, 0, 0);
+
+  position: absolute;
+top:30vw;
+left: 17vw;
+right: 16vw;;
+  z-index: 900;
+  font-size: 6vw;
+  font-family: "Lobster", serif;
+  box-shadow: rgb(153, 0, 0) 0 0 10ch;
+border-radius: 50vw;
+
+  font-style: oblique;
+}
