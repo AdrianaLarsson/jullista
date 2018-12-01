@@ -243,7 +243,7 @@ top:40vw;
 left: 0vw;
 right: 1vw;;
   z-index: 900;
-  font-size: 6.5vw;
+  font-size: 6vw;
   font-style: italic;
   box-shadow: rgb(255, 0, 0) 0 0 10ch; bottom: 10ch;
 border-radius: 3ch; width: 30ch; height: 5ch;
@@ -287,5 +287,5 @@ right: 16vw;;
   box-shadow: rgb(153, 0, 0) 0 0 10ch;
 border-radius: 50vw;
 
-  font-style: oblique;
+
 }
