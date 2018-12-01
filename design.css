@@ -279,10 +279,11 @@ border-radius: 3ch; width: 30ch; height: 5ch;
 
   position: absolute;
 top:40vw;
-left: 17vw;
-right: 16vw;;
+left: 0vw;
+right: 1vw;;
   z-index: 900;
   font-size: 5vw;
+  font-family: "Lobster", serif, cursive;
   font-style: italic;
   box-shadow: rgb(153, 0, 0) 0 0 10ch;
 border-radius: 50vw;
