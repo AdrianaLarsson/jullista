@@ -267,18 +267,16 @@ right: 3vw;;
   color: rgb(0, 0, 0);
 top:40vw;
 left: 0vw;
-right: 1vw;;
+right: 3vw;;
   z-index: 900;
   font-size: 7vw;
-  font-family: "Lobster", serif, cursive;
   font-style: italic;
-border-radius: 3ch; width: 30ch; height: 5ch;
 
 }
 .author3 {color: rgb(0, 0, 0);
 
   position: absolute;
-top:40vw;
+top:35vw;
 left: 0vw;
 right: 1vw;;
   z-index: 900;
