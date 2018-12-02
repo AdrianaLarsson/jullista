@@ -7,98 +7,72 @@
         <title>Marie K</title>
     </head>
     <body>
-            <header>
 
-                
-                    <h1>
-                        <em>God jul Marie</em> 
-                    </h1>
-                    
-                
-                   
-    
-                    <p id="klocka"></p>
+        <div class="test">God jul Marie</div>
+        <p id="klocka"></p>
 
-              
+        <canvas id="canvas">
 
+        </canvas>
+      
 
-            </header>
-         
-            <canvas id="canvas">
-
-
-            </canvas>
+        <div id="heart" >
+          <img class="bottom" src="https://goo.gl/nN8Haf" width="100px">
+          <img class="top" src="https://goo.gl/IIW1KE" width="100px">
+        </div>
+        <div class="slideshow-container">
        
-        
-          
-           
-                <div class="spotify">
-                        <iframe src="https://open.spotify.com/embed/user/adri4na/playlist/4RtzTevGbbRQ1C0vUs5DPJ" width="368vw" height="90vw" frameborder="90px" allowtransparency="true" border-radius="20px" allow="encrypted-media"style= "border-radius:45px solid lightblue; "></iframe> 
-                </div>
-              
-
-                <div class="slideshow-container">
-                   
+            <div class="mySlides">
+              <div class="text"><strong>Hoppas du har en underbar jul <br>
+                 och nyår med din man <br> och nära och kära.</strong></p></div>
          
-                
-                       
-        
-        
-        
-                        <div class="mySlides">
-                          <div class="text"><strong>Hoppas du har en underbar jul och nyår, <br> 
-                            med din man <br> och nära och kära.</strong></p></div>
-                     
-                        </div>
-                        
-                        <div class="mySlides">
-                          <div class="text2"><strong> Längst ner hittar du en Jullista, <br> en Jullista till dig från mig. </div>
-                      
-                        </div>
-                        
-                        <div class="mySlides">
-                          <div class="text3"><strong>Man kan kalla detta som ett litet vykort, ett digitalt, på en webbsida. Med tanke på att jag vet att du gillar vykort.
-                                Bilden Bakom är en bild taget i Luleå, mitt i centrum.</strong></q>
-                             </div>
-                        </div>
-        
-                          <div class="mySlides">
-                            <div class="text4"><strong> Du är grym! <br>
-                                  med <br>
-                                     Vänliga <br>
-                                     Hälsningar<br>
-                                        Puss och Kram</strong>
-                                        <p class="author3"><strong>- Adriana Larsson</strong> </div>
-                              </div>
-                                
-                             <div class="dot-container">
-                          <span class="dot" onclick="currentSlide(1)"></span> 
-                          <span class="dot" onclick="currentSlide(2)"></span> 
-                          <span class="dot" onclick="currentSlide(3)"></span> 
-                          <span class="dot" onclick="currentSlide(4)"></span> 
-                        </div>
-                        
-        
-                   
-                
-              
+            </div>
+            
+            <div class="mySlides">
+              <div class="text2"><strong> Längst ner hittar du en Jullista, <br> en Jullista till dig från mig. </div>
+          
+            </div>
+            
+            <div class="mySlides">
+              <div class="text3"><strong>Man kan kalla detta som ett litet vykort, ett digitalt, på en webbsida. Med tanke på att jag vet att du gillar vykort.
+                    Bilden Bakom är en bild taget i Luleå, mitt i centrum.</strong></q>
+                 </div>
+            </div>
 
-                  <script type="text/javascript">
+              <div class="mySlides">
+                <div class="text4"><strong> Du är grym! <br>
+                      med <br>
+                         Vänliga <br>
+                         Hälsningar<br>
+                            Puss och Kram</strong>
+                            <p class="author3"><strong>- Adriana Larsson</strong> </div>
+                  </div>
+               
+                 <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+    
 
 
+         
+
+            <div class="spotify">
+                <iframe src="https://open.spotify.com/embed/user/adri4na/playlist/4RtzTevGbbRQ1C0vUs5DPJ" width="368vw" height="86vw" frameborder="90px" allowtransparency="true" border-radius="20px" allow="encrypted-media"style= "border-radius:55px solid lightblue; "></iframe> 
+        </div>
+         <script>
 
 
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -116,62 +90,26 @@ function showSlides(n) {
 }
 
 
-
-var countDownDate = new Date("Dec 24, 2018 00:00:00" ).getTime();
-
-
-var x = setInterval(function() {
-
-    var now = new Date().getTime();
-    
-
-    var distance = countDownDate - now;
-
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-
-    document.getElementById("klocka").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s " + "tills julafton";
-    
-
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("klocka").innerHTML = "GOD JUL!!!";
-    }
-}, 1000);
- 
         
 function init(){
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 var w = canvas.width;
 var h = canvas.height;
-
-
-
 var flakes = [];
  
 function snowfall(){
 ctx.clearRect(0, 0, w, h);
-
 addFlake();
 snow();     
 };
-
  
  function addFlake(){
 var x = Math.ceil(Math.random() * w);
 var s = Math.ceil(Math.random() * 2);
 flakes.push({"x": x, "y": 0, "s": s});
-
-
  };
-
 function snow(){
-
       for (var i = 0; i < flakes.length; i++){
         var flake = flakes[i];
         ctx.beginPath();
@@ -182,23 +120,34 @@ function snow(){
            if (flakes[i].y > h){
                  flakes.splice(i, 4);
            }
-
       };
 };
-
 setInterval(snowfall, 20);
   
-
   };
-
 window.onload = init;
-
-
-
         
         
         
-        
+        var countDownDate = new Date("Dec 24, 2018 00:00:00" ).getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    document.getElementById("klocka").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s " + " tills julafton";
+    
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("klocka").innerHTML = "GOD JUL!!!";
+    }
+}, 1000);
+ 
         
         </script>
 
