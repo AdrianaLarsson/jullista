@@ -7,87 +7,85 @@
         <title>Marie K</title>
     </head>
     <body>
-
-        <div class="test">God jul Marie</div>
-        <p id="klocka"></p>
-
+  
         <canvas id="canvas">
 
         </canvas>
+     
+    
+     
+        <div class="test">God jul Marie</div>
+        <p id="klocka"></p>
+          </div>
+
+          
+
+          <div class="slideshow-container">
+       
+              <div class="mySlides">
+                <div class="text"><strong>Hoppas du har en underbar jul <br>
+                   och nyår med din man <br> och nära och kära.</strong></p></div>
+           
+              </div>
+              
+              <div class="mySlides">
+                <div class="text2"><strong> Längst ner hittar du en Jullista, <br> en Jullista till dig från mig. </div>
+            
+              </div>
+              
+              <div class="mySlides">
+                <div class="text3"><strong>Man kan kalla detta som ett litet vykort, ett digitalt, på en webbsida. Med tanke på att jag vet att du gillar vykort.
+                      Bilden Bakom är en bild taget i Luleå, mitt i centrum.</strong></q>
+                   </div>
+              </div>
+  
+                <div class="mySlides">
+                  <div class="text4"><strong> Du är grym! <br>
+                        med <br>
+                           Vänliga <br>
+                           Hälsningar<br>
+                              Puss och Kram</strong>
+                              <p class="author3"><strong>- Adriana Larsson</strong> </div>
+                    </div>
+                 
+    
+                   <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+              </div>
+
+
       
 
         <div id="heart" >
           <img class="bottom" src="https://goo.gl/nN8Haf" width="100px">
           <img class="top" src="https://goo.gl/IIW1KE" width="100px">
         </div>
-        <div class="slideshow-container">
-       
-            <div class="mySlides">
-              <div class="text"><strong>Hoppas du har en underbar jul <br>
-                 och nyår med din man <br> och nära och kära.</strong></p></div>
-         
-            </div>
-            
-            <div class="mySlides">
-              <div class="text2"><strong> Längst ner hittar du en Jullista, <br> en Jullista till dig från mig. </div>
-          
-            </div>
-            
-            <div class="mySlides">
-              <div class="text3"><strong>Man kan kalla detta som ett litet vykort, ett digitalt, på en webbsida. Med tanke på att jag vet att du gillar vykort.
-                    Bilden Bakom är en bild taget i Luleå, mitt i centrum.</strong></q>
-                 </div>
-            </div>
-
-              <div class="mySlides">
-                <div class="text4"><strong> Du är grym! <br>
-                      med <br>
-                         Vänliga <br>
-                         Hälsningar<br>
-                            Puss och Kram</strong>
-                            <p class="author3"><strong>- Adriana Larsson</strong> </div>
-                  </div>
-               
-                 <div class="dot-container">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-              <span class="dot" onclick="currentSlide(4)"></span> 
-            </div>
+      
     
+        <div class="spotify">
+            <iframe src="https://open.spotify.com/embed/user/adri4na/playlist/4RtzTevGbbRQ1C0vUs5DPJ" width="365vw" height="86vw" frameborder="90px" allowtransparency="true" border-radius="20px" allow="encrypted-media"style= "border-radius:55px solid lightblue; "></iframe> 
+    </div>
 
 
-         
+           
+            
+            
 
-            <div class="spotify">
-                <iframe src="https://open.spotify.com/embed/user/adri4na/playlist/4RtzTevGbbRQ1C0vUs5DPJ" width="368vw" height="86vw" frameborder="90px" allowtransparency="true" border-radius="20px" allow="encrypted-media"style= "border-radius:55px solid lightblue; "></iframe> 
-        </div>
+     
+           
+
          <script>
 
 
-var slideIndex = 1;
-showSlides(slideIndex);
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
+
+
+
+
+
+
 
 
         
@@ -128,6 +126,32 @@ setInterval(snowfall, 20);
 window.onload = init;
         
         
+
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
         
         var countDownDate = new Date("Dec 24, 2018 00:00:00" ).getTime();
 var x = setInterval(function() {
@@ -147,8 +171,11 @@ var x = setInterval(function() {
         document.getElementById("klocka").innerHTML = "GOD JUL!!!";
     }
 }, 1000);
- 
-        
+
+
+
+
+
         </script>
 
 
