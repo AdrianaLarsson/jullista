@@ -232,7 +232,7 @@ margin-right: 18px;
     position: absolute;
     color: rgb(255, 255, 255);
   top:44vw;
-  left: -6vw;
+left: -19px;
 
 
     font-size: 7vw;
@@ -248,7 +248,7 @@ margin-right: 18px;
     color: rgb(0, 0, 0);
   top:44vw;
   
-left:0px;
+left:-9px;
     z-index: 900;
     font-size: 7vw;
     font-style: italic;
