@@ -8,13 +8,13 @@ padding: 0;
 
 body {
 
-  background: linear-gradient(rgba(161, 44, 44, 0),rgba(158, 153, 153, 0.445),rgba(158, 153, 153, 0.507),rgba(158, 153, 153, 0.582), rgba(155, 145, 145, 0.185)), url(lulea.jpg); height: 300%; 
+  background: linear-gradient(rgba(161, 44, 44, 0),rgba(158, 153, 153, 0.445),rgba(158, 153, 153, 0.507),rgba(158, 153, 153, 0.582), rgba(155, 145, 145, 0.185)), url(lulea.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   width: 100%;
 
-  height: 300%;
+  height: 300vw;
   }
  
   
@@ -24,7 +24,7 @@ body {
   #klocka{
     font-family: Arial, Helvetica, sans-serif, cursive;
    float: center;
-margin-top:16px;
+margin-top:18px;
 margin-right: 18px;
     text-shadow: 1px 3px rgb(150, 0, 0);
     color: rgb(93, 190, 255);
@@ -37,7 +37,7 @@ margin-right: 18px;
 
  
    width: 100%; 
-height: 100%;
+height: 200vw;
   text-align: center;
   color: black;
 
@@ -102,7 +102,7 @@ height: 100%;
     z-index: 900;
     
     width: 100vw;
-    height: 70vw;
+    height: 25%;
   
     background-image: linear-gradient(rgba(211, 189, 189, 0),rgba(0, 0, 0, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(0, 0, 0, 0.712));
   
@@ -260,11 +260,11 @@ left:0px;
   .text3{
     position: absolute;
     color: rgb(255, 255, 255);
-  top:25vw;
+  top:24vw;
   left: 2vw;
   right: 1vw;;
     z-index: 900;
-    font-size: 4vw;
+    font-size: 5vw;
     font-style: italic;
     
   }
@@ -272,20 +272,20 @@ left:0px;
   .text4{
     position: absolute;
     color: rgb(0, 0, 0);
-  top:48vw;
-  left: 6vw;
-  right: 4vw;;
+  top:47vw;
+  left: 5vw;
+  right: 3vw;;
     z-index: 900;
     font-size: 5vw;
     font-style: italic;
   
   }
-  .author3 {color: rgb(255, 0, 0);
+  .author3 {color: rgb(167, 0, 0);
   
     position: absolute;
-  top:29vw;
-  left: 8vw;
-  right: 5vw;;
+  top:30vw;
+  left: 7vw;
+  right: 1vw;;
     z-index: 900;
     font-size: 5vw;
     font-family: "Lobster", serif, cursive;
