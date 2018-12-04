@@ -305,11 +305,11 @@ left:0px;
     }
   #heart img{
     
-    width: 32%;
+    width: 33%;
 position: absolute;
     left:0;
     right:0;
-  top: 47vw;
+  top: 49vw;
     margin:0 auto;
     -webkit-transition: opacity 7s ease-in-out;
     -moz-transition: opacity 7s ease-in-out;
