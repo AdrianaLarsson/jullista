@@ -8,45 +8,43 @@ padding: 0;
 
 body {
 
-  background: linear-gradient(rgba(161, 44, 44, 0),rgba(158, 153, 153, 0.445),rgba(158, 153, 153, 0.507),rgba(158, 153, 153, 0.582), rgba(155, 145, 145, 0.185)), url(lulea.jpg); height: 20vw;;
+  background: linear-gradient(rgba(161, 44, 44, 0),rgba(158, 153, 153, 0.445),rgba(158, 153, 153, 0.507),rgba(158, 153, 153, 0.582), rgba(155, 145, 145, 0.185)), url(lulea.jpg); height: 300%; 
   background-repeat: no-repeat;
-
-  background-position: center;
   background-size: cover;
-
+  position: absolute;
   width: 100%;
-  height: 100vw;
+
+  height: 300%;
   }
  
   
   
 
-
+ 
   #klocka{
     font-family: Arial, Helvetica, sans-serif, cursive;
    float: center;
-margin-top:18px;
+margin-top:16px;
 margin-right: 18px;
     text-shadow: 1px 3px rgb(150, 0, 0);
     color: rgb(93, 190, 255);
-    font-size: 6vw;
+    font-size: 5vw;
     z-index: 900;
 
   }
   
   #canvas{
-  
-    background-size: cover;
-   width: 180vw; 
-   height: 200vw; 
+
+ 
+   width: 100%; 
+height: 100%;
   text-align: center;
   color: black;
-  
-  background-attachment: fixed;
-  background-position: center;
+
+
   background-size: cover;
   
-  
+  position: absolute;
   }
   
   
@@ -56,7 +54,7 @@ margin-right: 18px;
   
   .test {
     color: rgb(184, 0, 0);
-    margin-top:-720px;
+    margin-top:5px;
         font-size: 10vw;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-style: italic;
@@ -70,9 +68,9 @@ margin-right: 18px;
    
       position: relative;
       -webkit-animation: mymove 7s infinite; /* Safari 4.0 - 8.0 */
-      animation: mymove 7s infinite;
+    animation: mymove 7s infinite;
   
-  }
+  } 
   
   @-webkit-keyframes mymove {
     from {left: 10px;}
@@ -98,13 +96,13 @@ margin-right: 18px;
   .spotify{
   
     position: absolute;
-  top:143vw;
+  top:99vw;
   left: 0vw;
   right: 0vw;;
     z-index: 900;
     
     width: 100vw;
-    height: 50vw;
+    height: 70vw;
   
     background-image: linear-gradient(rgba(211, 189, 189, 0),rgba(0, 0, 0, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(0, 0, 0, 0.712));
   
@@ -128,7 +126,7 @@ margin-right: 18px;
     display: none;
     padding: 80px;
     text-align: center;
-    width: 100px;
+    width: 100%;
   
   
   
@@ -169,22 +167,23 @@ margin-right: 18px;
       background: rgb(255, 255, 255);
    
       position: absolute;
-      top:100vw;
+      top:80vw;
       left: 0vw;
-      right: 0vw;;
-        z-index: 900;
-        height: 20px;;
-        width: 100vw;
+      right: 0vw;
+  
+        height: 10vw;
+        width: auto;
         background-image: linear-gradient(rgba(211, 189, 189, 0),rgba(0, 0, 0, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(0, 0, 0, 0.712));
   
   }
   
   .dot {
     cursor: pointer;
+  top:15vw;
     height: 10vw;
+    width: auto;
     width: 10vw;
-    margin: 0 5px;
-    margin-top:-8px;
+ 
     background-image: linear-gradient(rgba(211, 189, 189, 0),rgba(116, 121, 110, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(24, 126, 221, 0.712));
     border-radius: 50%;
     display: inline-block;
@@ -209,7 +208,7 @@ margin-right: 18px;
   right: 0vw;
     z-index: 900;
     box-sizing: border-box;
-  width: 10vw;
+  width: 10%;
   }
   
   .author {color: rgb(255, 255, 255);
@@ -232,8 +231,8 @@ margin-right: 18px;
   .text{
     position: absolute;
     color: rgb(255, 255, 255);
-  top:44vw;
-left: -19px;
+  top:25vw;
+left: 3px;
 
 
     font-size: 6vw;
@@ -246,49 +245,49 @@ left: -19px;
   
   .text2{
     position: absolute;
-    color: rgb(0, 0, 0);
-  top:44vw;
+    color: rgb(255, 255, 255);
+  top:28vw;
   
-left:-9px;
+left:0px;
     z-index: 900;
     font-size: 6vw;
     font-style: italic;
   
-  border-radius: 3ch; width: 30ch; height: 5ch;
+  border-radius: 3ch; width: 34ch; height: 5ch;
   text-shadow: 20ch;
   }
   
   .text3{
     position: absolute;
     color: rgb(255, 255, 255);
-  top:40vw;
+  top:25vw;
   left: 2vw;
   right: 1vw;;
     z-index: 900;
-    font-size: 6vw;
+    font-size: 4vw;
     font-style: italic;
     
   }
   
   .text4{
     position: absolute;
-    color: rgb(255, 194, 194);
-  top:35vw;
-  left: 0vw;
-  right: 3vw;;
+    color: rgb(0, 0, 0);
+  top:48vw;
+  left: 6vw;
+  right: 4vw;;
     z-index: 900;
-    font-size: 7vw;
+    font-size: 5vw;
     font-style: italic;
   
   }
-  .author3 {color: rgb(255, 255, 255);
+  .author3 {color: rgb(255, 0, 0);
   
     position: absolute;
-  top:45vw;
-  left: 0vw;
-  right: 1vw;;
+  top:29vw;
+  left: 8vw;
+  right: 5vw;;
     z-index: 900;
-    font-size: 7vw;
+    font-size: 5vw;
     font-family: "Lobster", serif, cursive;
     font-style: italic;
 
@@ -297,20 +296,20 @@ left:-9px;
   
   }
   #button{
-    width:400px;
-    height:400px;
-    position: center;
+    width:400%;
+    height:auto;
+    position: absolute;
 
     
     text-align:center;
     }
   #heart img{
     
-    width: 110px;
-    position:absolute;
+    width: 32%;
+position: absolute;
     left:0;
     right:0;
-  top: 410px;
+  top: 47vw;
     margin:0 auto;
     -webkit-transition: opacity 7s ease-in-out;
     -moz-transition: opacity 7s ease-in-out;
@@ -342,4 +341,4 @@ left:-9px;
     animation-duration: 2s;
     animation-direction: alternate;
   
-  }
+  } 
