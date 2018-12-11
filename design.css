@@ -8,17 +8,15 @@ padding: 0;
 
 body {
 
-  background: linear-gradient(rgba(161, 44, 44, 0),rgba(158, 153, 153, 0.445),rgba(158, 153, 153, 0.507),rgba(158, 153, 153, 0.582), rgba(155, 145, 145, 0.185)), url(lulea.jpg); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
 
-  height: 300vw;
+  background: url(lulea.jpg); 
+  background-size: cover;
+background-repeat: no-repeat;
+height: 300%;
   }
  
   
-  
+
 
  
   #klocka{
@@ -96,7 +94,7 @@ height: 200vw;
   .spotify{
   
     position: absolute;
-  top:99vw;
+  top:130vw;
   left: 0vw;
   right: 0vw;;
     z-index: 900;
@@ -167,7 +165,7 @@ height: 200vw;
       background: rgb(255, 255, 255);
    
       position: absolute;
-      top:80vw;
+      top:110vw;
       left: 0vw;
       right: 0vw;
   
@@ -231,7 +229,7 @@ height: 200vw;
   .text{
     position: absolute;
     color: rgb(255, 255, 255);
-  top:25vw;
+  top:37vw;
 left: 3px;
 
 
@@ -246,11 +244,11 @@ left: 3px;
   .text2{
     position: absolute;
     color: rgb(255, 255, 255);
-  top:28vw;
-  
-left:0px;
-    z-index: 900;
-    font-size: 6vw;
+  top:40vw;
+  right: 19px;
+left: -39px;
+
+    font-size: 7vw;
     font-style: italic;
   
   border-radius: 3ch; width: 34ch; height: 5ch;
@@ -260,11 +258,11 @@ left:0px;
   .text3{
     position: absolute;
     color: rgb(255, 255, 255);
-  top:24vw;
-  left: 2vw;
+  top:25vw;
+  left: 1vw;
   right: 1vw;;
     z-index: 900;
-    font-size: 5vw;
+    font-size: 6vw;
     font-style: italic;
     
   }
@@ -272,18 +270,18 @@ left:0px;
   .text4{
     position: absolute;
     color: rgb(0, 0, 0);
-  top:47vw;
+  top:83vw;
   left: 5vw;
   right: 3vw;;
     z-index: 900;
-    font-size: 5vw;
+    font-size: 4vw;
     font-style: italic;
   
   }
   .author3 {color: rgb(167, 0, 0);
   
     position: absolute;
-  top:30vw;
+  top:24vw;
   left: 7vw;
   right: 1vw;;
     z-index: 900;
@@ -305,11 +303,11 @@ left:0px;
     }
   #heart img{
     
-    width: 33%;
+    width: 28%;
 position: absolute;
     left:0;
     right:0;
-  top: 49vw;
+  top: 84vw;
     margin:0 auto;
     -webkit-transition: opacity 7s ease-in-out;
     -moz-transition: opacity 7s ease-in-out;
