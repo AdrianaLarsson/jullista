@@ -3,16 +3,20 @@
 margin: 0;
 padding: 0;
 
+background-image: linear-gradient(0, 0, 0, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(0, 0, 0, 0.712));
+}
+img {
+  background-position: cover;
+  width: 100%;
 
 }
 
+
 body {
+  background-image: linear-gradient(rgba(211, 189, 189, 0),rgba(0, 0, 0, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(0, 0, 0, 0.712));
 
 
-  background: url(lulea.jpg); 
-  background-size: cover;
-background-repeat: no-repeat;
-height: 300%;
+
   }
  
   
@@ -22,7 +26,7 @@ height: 300%;
   #klocka{
     font-family: Arial, Helvetica, sans-serif, cursive;
    float: center;
-margin-top:18px;
+
 margin-right: 18px;
     text-shadow: 1px 3px rgb(150, 0, 0);
     color: rgb(93, 190, 255);
@@ -102,7 +106,7 @@ height: 200vw;
     width: 100vw;
     height: 25%;
   
-    background-image: linear-gradient(rgba(211, 189, 189, 0),rgba(0, 0, 0, 0.445),rgba(255, 255, 255, 0.507),rgba(158, 153, 153, 0.582), rgba(0, 0, 0, 0.712));
+    
   
     
   }
